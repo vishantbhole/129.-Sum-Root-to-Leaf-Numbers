@@ -7,3 +7,8 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+class Solution:
+    def sumNumbers(self, root: Optional[TreeNode]) -> int:
+
+        #Time = O(n)
+        #Space = O(H) where H is the height of tree
