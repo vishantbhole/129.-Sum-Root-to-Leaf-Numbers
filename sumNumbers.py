@@ -12,3 +12,6 @@ class Solution:
 
         #Time = O(n)
         #Space = O(H) where H is the height of tree
+        def dfs(cur, num):
+            if not cur:
+                return 0
