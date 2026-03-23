@@ -28,4 +28,7 @@ class Solution:
 def main():
     # Example: root = [1,2,3] => 12 + 13 = 25
     root = TreeNode(1, TreeNode(2), TreeNode(3))
-    print(Solution().sumNumbers(root))  # 25
+    print(Solution().sumNumbers(root))  # 25\
+
+if __name__ == "__main__":
+    main()
